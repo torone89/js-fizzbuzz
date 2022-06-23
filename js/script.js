@@ -15,7 +15,7 @@ let numero
 
 for (var i = 1; i <= 100; i++) {
 
-    numero = i
+
 
     numero = i
     if (numero % 3 == 0 && numero % 5 == 0) {

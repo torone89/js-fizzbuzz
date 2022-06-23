@@ -15,7 +15,7 @@ let numero
 
 for (var i = 1; i <= 100; i++) {
 
-    numero = i
+
 
     numero = i
     if (numero % 3 == 0 && numero % 5 == 0) {
@@ -34,12 +34,13 @@ for (var i = 1; i <= 100; i++) {
     contenitore.innerHTML +=
 
 
-        `<div class="row">
+        `
         <div class="col">
         <div id="quadrato">
-        scrivi  <strong> ${numero}<strong><p></div>
+        scrivi  <strong> ${numero}<strong>
         </div>
         </div>
+        
         `
 
 
