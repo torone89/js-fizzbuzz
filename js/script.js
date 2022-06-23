@@ -19,19 +19,21 @@ for (var i = 1; i <= 100; i++) {
 
     numero = i
     if (numero % 3 == 0 && numero % 5 == 0) {
-        numero += " FizzBuzz";
+        numero = " FizzBuzz";
     }
     if (numero % 3 == 0) {
-        numero += " Fizz";
+        numero = " Fizz";
     }
 
     if (numero % 5 == 0) {
-        numero += " Buzz";
+        numero = " Buzz";
     }
 
     // STAMPO NEL CONTENITORE
     console.log(numero)
-    contenitore.innerText += " " + "scrivi " + numero
+    contenitore.innerHTML +=
+        `<p>scrvi  <strong> ${numero}<strong><p>`
+
 
 }
 
