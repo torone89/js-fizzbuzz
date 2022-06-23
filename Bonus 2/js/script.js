@@ -29,10 +29,18 @@ for (var i = 1; i <= 100; i++) {
         numero = " Buzz";
     }
 
+    // STAMPO NEL CONTENITORE
     console.log(numero)
+    contenitore.innerHTML +=
+
+
+        `<div class="row">
+        <div class="col">
+        <div id="quadrato">
+        scrivi  <strong> ${numero}<strong><p></div>
+        </div>
+        </div>
+        `
+
+
 }
-
-
-
-
-

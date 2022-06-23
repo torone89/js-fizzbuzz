@@ -1,0 +1,18 @@
+/* *************************/
+/* COLOR */
+/* *************************/
+
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#quadrato {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 3px solid black;
+}
