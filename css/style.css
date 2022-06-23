@@ -1,0 +1,64 @@
+/* *************************/
+/* COLOR */
+/* *************************/
+
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* *************************/
+/* GENERIC */
+/* *************************/
+
+.container {
+    background-color: aqua;
+    height: 800px;
+
+}
+
+.row {
+    border: 2px dashed yellow;
+}
+
+.row>[class^='col'] {
+    min-height: 100px;
+    background-color: blanchedalmond;
+    border: 1px gray solid;
+}
+
+.row .row>[class^='col'] {
+    background-color: orange;
+
+}
+
+
+/* *************************/
+/* UTILITIES */
+/* *************************/
+
+
+
+/* *************************/
+/* Header
+/* *************************/
+
+
+/* *************************/
+/* Main */
+/* *************************/
+
+
+
+
+
+
+
+
+/* *************************/
+/* Footer */
+/* *************************/
