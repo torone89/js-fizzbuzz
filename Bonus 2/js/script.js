@@ -34,8 +34,8 @@ for (var i = 1; i <= 100; i++) {
     contenitore.innerHTML +=
         `
         <div class="col">
-        <div class="quadrato">
-        scrivi  <strong>${numero}</strong>
+        <div class="quadrato d-flex align-items-center justify-content-center m-1 p-2">
+        <strong>${numero}</strong>
         </div>
         </div>
         
