@@ -12,6 +12,7 @@ console.log("JS")
 
 
 
+// SOLUZIONE FINALE IN CONSOLE 
 
 let prova
 
@@ -20,10 +21,11 @@ for (var i = 0; i <= 100; i++) {
     prova = i
 
     if (prova % 3 == 0) {
-        prova = "Fizz";
-        // } else (prova % 5 == 0) {
-        //     prova = "buzz";
-        // 
+        prova += " Fizz";
+    }
+
+    if (prova % 5 == 0) {
+        prova += " Buzz";
     }
 
     console.log(prova)
