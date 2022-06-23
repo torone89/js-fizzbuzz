@@ -3,13 +3,6 @@
 console.log("JS")
 
 
-// // SCRIVO UN NUMERO DA 1 a 100
-
-// let content = ''; contaMultipi = 0
-// for (let i = 1; i <= 100; i++) {
-//     content = ("scrivi " + i);
-//     console.log(content);
-
 
 // DICHIARAZIONI VARIABILi
 
