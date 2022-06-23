@@ -11,26 +11,34 @@ console.log("JS")
 //     console.log(content);
 
 
+// DICHIARAZIONI VARIABILi
+
+const contenitore = document.getElementById("quadrato")
+console.log(contenitore)
 
 // SOLUZIONE FINALE IN CONSOLE 
 
-let prova
+let numero
 
 for (var i = 0; i <= 100; i++) {
 
-    prova = i
+    numero = i
 
-    if (prova % 3 == 0) {
-        prova += " Fizz";
+    if (numero % 3 == 0) {
+        numero += " Fizz";
     }
 
-    if (prova % 5 == 0) {
-        prova += " Buzz";
+    if (numero % 5 == 0) {
+        numero += " Buzz";
     }
 
-    console.log(prova)
+    // STAMPO NEL DOC
+    console.log(numero)
+    contenitore.innerText += " " + "scrivi " + numero
 
 }
+
+
 
 
 

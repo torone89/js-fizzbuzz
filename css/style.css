@@ -41,7 +41,11 @@
 /* UTILITIES */
 /* *************************/
 
-
+#quadrato {
+    height: 200px;
+    background-color: aqua;
+    color: black;
+}
 
 /* *************************/
 /* Header
