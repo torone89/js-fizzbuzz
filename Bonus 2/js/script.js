@@ -32,12 +32,10 @@ for (var i = 1; i <= 100; i++) {
     // STAMPO NEL CONTENITORE
     console.log(numero)
     contenitore.innerHTML +=
-
-
         `
         <div class="col">
-        <div id="quadrato">
-        scrivi  <strong> ${numero}<strong>
+        <div class="quadrato">
+        scrivi  <strong>${numero}</strong>
         </div>
         </div>
         
