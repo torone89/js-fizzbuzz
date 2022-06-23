@@ -20,12 +20,12 @@ console.log(contenitore)
 
 let numero
 
-for (var i = 0; i <= 100; i++) {
+for (var i = 1; i <= 100; i++) {
 
     numero = i
 
     numero = i
-    if (numero % 3 == 00 && numero % 5 == 0) {
+    if (numero % 3 == 0 && numero % 5 == 0) {
         numero += " FizzBuzz";
     }
     if (numero % 3 == 0) {
