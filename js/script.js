@@ -24,6 +24,10 @@ for (var i = 0; i <= 100; i++) {
 
     numero = i
 
+    if ((numero % 3) && (numero % 5) == 0) {
+        numero += "FizzBuzz";
+    }
+
     if (numero % 3 == 0) {
         numero += " Fizz";
     }
@@ -32,9 +36,10 @@ for (var i = 0; i <= 100; i++) {
         numero += " Buzz";
     }
 
+
     // STAMPO NEL DOC
     console.log(numero)
-    contenitore.innerText += " " + "scrivi " + numero
+
 
 }
 
