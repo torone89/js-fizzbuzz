@@ -11,28 +11,27 @@ console.log(contenitore)
 
 // SOLUZIONE FINALE IN CONSOLE 
 
-let numero
+let numero = ""
 
 for (var i = 1; i <= 100; i++) {
 
+    if (i % 3 == 0 && i % 5 == 0) {
+        numero = "FizzBuzz"
 
 
-    numero = i
-    if (numero % 3 == 0 && numero % 5 == 0) {
-        numero = " FizzBuzz";
     }
-    if (numero % 3 == 0) {
+    else if (i % 3 == 0) {
         numero = " Fizz";
-    }
 
-    if (numero % 5 == 0) {
-        numero = " Buzz";
     }
+    else if (i % 5 == 0) {
+        numero = " Buzz";
+
+    }
+    else { numero = i }
 
     console.log(numero)
+
 }
-
-
-
 
 

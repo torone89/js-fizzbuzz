@@ -9,3 +9,16 @@ h1 {
     font-size: 50px;
     padding: 30px 0;
 }
+
+.fizz {
+    background-color: green;
+}
+
+.buzz {
+    background-color: yellow;
+}
+
+
+.fizzbuzz {
+    background-color: red;
+}
