@@ -1,4 +1,4 @@
-.quadrato {
+/* .quadrato {
     height: 100px;
     width: 100px;
     background-color: tomato;
@@ -21,4 +21,53 @@ h1 {
 
 .fizzbuzz {
     background-color: red;
+} */
+
+/* SOLUZIONE 2  */
+
+:root {
+    --dark-blue: #083b4c;
+    --light-blue: #1389b2;
+    --green: #0bd6a1;
+    --yellow: #ffd166;
+    --red: #f0466f;
+}
+
+
+/* general */
+body {
+    background-color: var(--dark-blue);
+}
+
+ul {
+    list-style-type: none;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 50px auto;
+    width: 1100px;
+    padding: 0;
+    border: 10px solid var(--dark-blue);
+}
+
+ul li {
+    height: 100px;
+    width: 100px;
+    line-height: 80px;
+    background-color: var(--light-blue);
+    text-align: center;
+    border: 10px solid var(--dark-blue);
+
+}
+
+/* CAMBIO COLORE */
+.Fizz {
+    background-color: var(--green);
+}
+
+.FizzBuzz {
+    background-color: var(--yellow);
+}
+
+.Buzz {
+    background-color: var(--red);
 }
